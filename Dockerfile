@@ -7,7 +7,7 @@ RUN set -x \
     bash git  automake autoconf g++ bsd-compat-headers \
   \
 ## build
-  && git clone https://github.com/archiecobbs/s3backer.git /usr/src/s3backer \
+  && git clone -b 1.5.2 https://github.com/archiecobbs/s3backer.git /usr/src/s3backer \
   && cd /usr/src/s3backer \
   \
   && ./autogen.sh \

@@ -1,5 +1,5 @@
 FROM alpine:edge
-ENV VERSION 1.5.2
+ENV VERSION 1.5.4
 
 RUN set -x \
   \
